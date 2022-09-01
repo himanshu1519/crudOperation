@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Link From</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img">
+        <img src="image.png" alt="error">
+    </div>
+    <fieldset>
+        <legend>
+            <div>
+                <h2>Add New student (Link)</h2>
+            </div>
+        </legend>
+        <div>
+            <form id="form">
+                <div>
+                    <div>
+                        <label for="name">Name* &nbsp;:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                    </div>
+                    <div>
+                        <label for="class">Class* &nbsp;:</label>
+                        <input type="text" id="class" name="class" placeholder="Enter Your Class">
+                    </div>
+                    <div>
+                        <label for="marks">Marks* &nbsp;:</label>
+                        <input type="text" id="marks" name="marks" placeholder="Enter Your Marks">
+                    </div>
+                        <input type="button" value="Save (Link)" id="btn" class="btn-button" onclick="Save()">
+                        <input type="reset" value="Reset" id="btn-reset"  >
+                </div>
+            </form>
+        </div>
+    </fieldset> 
+    <br>
+    <div id="msg"></div>
+    <fieldset>
+        <legend>
+            <div>
+                <h2>List of Students</h2>
+            </div>
+        </legend>
+        <table id="table" border="2">
+            <tr>
+                <td class="col">Name</td>
+                <td class="col">Class</td>
+                <td class="col">Marks</td>
+                <td class="col">Action</td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

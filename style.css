@@ -1,0 +1,58 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(18, 18, 57);
+    color: white;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+#form label{
+    font-weight: 800;
+    font-size: 20px;
+}
+#name ,#class, #marks{
+    margin: 12px;
+}
+.btn-button{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#btn ,#btn-reset{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: cyan;
+}
+table{
+    border-color:white;
+    margin-left: 20px;
+
+}
+td{
+    padding: 12px 22px;
+}
+.col{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(168, 246,10);
+    margin: 10px;
+    /* color: black; */
+}
+tr{
+    background-color: rgb(165,233,255);
+    color: black;
+    text-align: center;
+}
+input{
+    font-size: 16px;
+}
